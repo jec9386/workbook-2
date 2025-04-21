@@ -21,21 +21,21 @@ public class CellPhone {
             public int getSerialNumber() {
                 return this.serialNumber;
             }
-            public int getModel() {
+            public String getModel() {
                 return this.model;
             }
-            public int getCarrier() {
+            public String getCarrier() {
                 return this.carrier;
             }
-            public int getPhoneNumber() {
+            public String getPhoneNumber() {
                 return this.phoneNumber;
             }
-            public int getOwner() {
+            public String getOwner() {
                 return this.owner;
             }
 
             //Setter
-            public void setSerialModel(int serialNumber) {
+            public void setSerialNumber(int serialNumber) {
                 this.serialNumber = serialNumber;
             }
             public void setModel(String model) {
