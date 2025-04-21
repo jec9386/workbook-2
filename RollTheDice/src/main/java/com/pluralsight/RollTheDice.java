@@ -5,10 +5,10 @@ public class RollTheDice {
         //create instance of dice
 
         Dice dice = new Dice();
-
-        int roll1;
+        //intention of variable should you assign a value at the moment.
+        int roll1;//no value at this point
         int roll2;
-        int numOf2 = 0;
+        int numOf2 = 0;//counts starts at 0
         int numOf4 = 0;
         int numOf6 = 0;
         int numOf7 = 0;
