@@ -9,7 +9,7 @@ public class CellPhoneApplication {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("What is the serial number?: ");
-        int number = scanner.nextInt();
+        String number = scanner.nextLine();
         scanner.nextLine();
         myPhone.setSerialNumber(number);
 
