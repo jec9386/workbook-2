@@ -24,12 +24,10 @@ public class RollTheDice {
             if(rollTotal == 6){numOf6++;}
             if(rollTotal == 7){numOf7++;}
 
-            System.out.println("Total number of 2s: " + numOf2);
-            System.out.println("Total number of 4s: " + numOf4);
-            System.out.println("Total number of 6s: " + numOf6);
-            System.out.println("Total number of 7s: " + numOf7);
-
-
         }
+        System.out.println("Total number of 2s: " + numOf2);
+        System.out.println("Total number of 4s: " + numOf4);
+        System.out.println("Total number of 6s: " + numOf6);
+        System.out.println("Total number of 7s: " + numOf7);
     }
 }
